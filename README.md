@@ -59,8 +59,8 @@ React_JS/
 
 ## Author
 
-_Your Name Here_
+Prashant
 
 ---
 
-Feel free to explore, modify, and learn from the code in this repository!
+Feel free to explore and learn from the code in this repository!
