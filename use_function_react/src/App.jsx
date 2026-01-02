@@ -11,6 +11,10 @@ function App() {
     console.log("mouse")
   }
 
+  function MouseLeave(mouse) {
+    console.log("mouse leave")
+  }
+
   function Double(click) {
     console.log("Double Click")
   }
@@ -27,6 +31,10 @@ function App() {
         //   }}
 
         // onMouseEnter={function Mouse(mouse) { //for when u hover
+        //   console.log(mouse)
+      // }}
+
+        // onMouseLeave={function Mouse(mouse) { //for when u hover
         //   console.log(mouse)
         // }}
 
