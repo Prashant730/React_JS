@@ -1,3 +1,9 @@
+// two_way_data_binding ==> what is two way data binding in reactjs?
+// Two-way data binding in ReactJS refers to the synchronization of data between the state and the UI components. When the state changes, the UI updates automatically, and when the user interacts with the UI (like typing in an input field), the state updates accordingly. This is typically achieved using controlled components, where the value of an input element is controlled by React state.
+
+//why do we need it?
+// Two-way data binding is essential for creating interactive and dynamic user interfaces. It allows developers to manage the state of the application effectively, ensuring that the UI reflects the current state and vice versa. This is particularly useful in forms, where user input needs to be captured and processed.
+
 import { useState } from "react"
 function App() {
 
