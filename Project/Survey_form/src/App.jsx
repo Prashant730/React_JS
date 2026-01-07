@@ -1,14 +1,14 @@
 import {useState} from "react"
 function App() {
 
-  const [count, setCount] = useState({ good: '', bad: '' })
+  const [count, setCount] = useState({ good: 0, bad: 0 })
   const [selected, setSelected] = useState("")
 
   function submit() {
     if (selected == "Good") {
-      setCount({...count,good:count.good+1})
+      setCount({...count,good:count.good + 1})
     } else if(selected == "Bad"){
-      setCount({...count,bad:count.bad+1})
+      setCount({...count,bad:count.bad + 1})
     } else {
       setSelected("")
     }
